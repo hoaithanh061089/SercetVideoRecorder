@@ -1,0 +1,81 @@
+{
+  "project_info": {
+    "project_number": "495342855197",
+    "firebase_url": "https://secret-video-recorder-190112.firebaseio.com",
+    "project_id": "secret-video-recorder-190112",
+    "storage_bucket": "secret-video-recorder-190112.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495342855197:android:f422d6eaaf24f604",
+        "android_client_info": {
+          "package_name": "thanhnguyen.com.sercetvideorecorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495342855197-hnq33f5d07q83ogq2ocfvdqpjj4r2ipm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "495342855197-7dia8a03accrp42ea980ssksih84oh52.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "thanhnguyen.com.sercetvideorecorder",
+            "certificate_hash": "8b2ca288b0b4e67bba4859063c39062d8d45e2be"
+          }
+        },
+        {
+          "client_id": "495342855197-ja3loudkl3oa9epheerl1afq897gc02n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "thanhnguyen.com.sercetvideorecorder",
+            "certificate_hash": "e8b8a090a07cebf117a462e74a642aed9584640f"
+          }
+        },
+        {
+          "client_id": "495342855197-bt9gppr10tgaa4bq1v4ou3qf2kjrsrkk.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "495342855197-qrngoju8m1nt8v2k99rg6fhk7q0ddtdc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "thanhnguyen.com.sercetvideorecorder",
+            "certificate_hash": "3279892d0617f0bba5467a18962279d9edd1ffeb"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmq43enT8Wbqm678P1aVXg5D8Jf-ejLGg"
+        },
+        {
+          "current_key": "AIzaSyC6inziO7p17nRTxWl0DnvIBHTJeHYh2V8"
+        },
+        {
+          "current_key": "AIzaSyBmW5L-SZPj_H8AKaNXt-bQOhF8WVSN3WY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495342855197-hnq33f5d07q83ogq2ocfvdqpjj4r2ipm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

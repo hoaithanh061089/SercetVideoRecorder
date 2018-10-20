@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Sercet Video Recorder</string>
+    <string name="string_choose_videopath">Choose</string>
+
+    <string-array name="camera">
+        <item>Back camera</item>
+        <item>Front camera</item>
+    </string-array>
+    <string-array name="camera_id">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="camera_resolution">
+        <item>1920x1080</item>
+        <item>1280x720</item>
+        <item>720x480</item>
+        <item>320x240</item>
+    </string-array>
+    <string-array name="camera_resolution_id">
+        <item>1920</item>
+        <item>1280</item>
+        <item>720</item>
+        <item>320</item>
+    </string-array>
+    <string-array name="duration">
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>60 minutes</item>
+        <item>Unlimited</item>
+    </string-array>
+    <string-array name="duration_id">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="vieo_play">
+        <item>Play video</item>
+        <item>Delete video</item>
+        <item>Open video in folder  </item>
+        <item>Video GPS location</item>
+        <item>Upload video to Google Drive</item>
+    </string-array>
+    <string-array name="googleaccount">
+        <item>Sign in with Google</item>
+        <item>Sign out account</item>
+    </string-array>
+
+
+</resources>

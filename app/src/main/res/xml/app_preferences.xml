@@ -1,0 +1,130 @@
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Dial Settings" >
+
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:key="hide_icon"
+            android:title="Hide app icon"
+            android:summary="After app is hided, app icon will disappear from the launcher."
+            android:defaultValue="false" />
+         <android.support.v7.preference.PreferenceScreen
+            android:key="call_open_app"
+            android:title="Dial *#6789#* to open app"
+             android:summary="Tap to change."
+
+            />
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:key="instant_recording"
+            android:title="Instant recording"
+            android:summary="Start and stop recording by dial your recording number below. "
+            android:defaultValue="true" />
+        <android.support.v7.preference.PreferenceScreen
+            android:key="call_video_recording"
+            android:title="Dial *#0610#* to start and stop video recording"
+            android:summary="Tap to change."
+
+            />
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:key="camera_shortcut"
+            android:title="Camera Shortcut"
+            android:summary="Press shortcut on phone homescreen to start and stop recording. "
+            android:defaultValue="true" />
+        <android.support.v7.preference.PreferenceScreen
+            android:key="add_shortcut"
+            android:title="Add new shortcut on home screen"
+            android:summary="Tap to change."
+
+            />
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:key="app_notification"
+            android:title="App notification"
+            android:summary="Notification when start or stop recording video."
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Camera Settings" >
+
+            <android.support.v7.preference.ListPreference
+                android:key="camera_chooser"
+                android:title="Choose back or front camera to record"
+                android:summary="Tap to change."
+                android:entries="@array/camera"
+                android:entryValues="@array/camera_id"
+                />
+            <android.support.v7.preference.ListPreference
+                android:key="camera_resolution"
+                android:title="Video resolution"
+                android:summary="Choose your video resolution. If your camera doesn\'t support this resolution, app will choose the nearest one."
+                android:entries="@array/camera_resolution"
+                android:entryValues="@array/camera_resolution_id"
+                />
+            <android.support.v7.preference.ListPreference
+                android:key="camera_duration"
+                android:title="Video duration"
+                android:summary="When duration exceeds, app will start new video."
+                android:entries="@array/duration"
+                android:entryValues="@array/duration_id"
+                />
+            <android.support.v7.preference.SwitchPreferenceCompat
+                android:key="zoominout"
+                android:title="Zoom in-out"
+                android:summary="Zoom it and out during recording using volume key. Beta only, it doesn\'t work in some devices. "
+                android:defaultValue="true" />
+            <android.support.v7.preference.SwitchPreferenceCompat
+                android:key="camera_vibrate"
+                android:title="Vibrate"
+                android:summary="Vibrate device when start and stop recording "
+                android:defaultValue="true" />
+
+            <android.support.v7.preference.PreferenceScreen
+                android:key="video_path"
+                android:title="Video path to save video"
+                android:summary="Tap to change."
+
+                />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Security" >
+
+            <android.support.v7.preference.SwitchPreferenceCompat
+                android:key="lock_pattern_allow"
+                android:title="Pattern"
+                android:summary="Draw pattern to open app "
+                android:defaultValue="false" />
+            <android.support.v7.preference.SwitchPreferenceCompat
+                android:key="pattern_invisible"
+                android:title="Invisible pattern"
+                android:defaultValue="false" />
+            <android.support.v7.preference.PreferenceScreen
+                android:key="lock_pattern_change"
+                android:title="Set up lock pattern"
+                android:summary="Tap to change."
+
+                />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Google Drive Upload" >
+
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:key="google_upload_allow"
+            android:title="Upload"
+            android:summary="Upload video to google drive after recording finishes "
+            android:defaultValue="false" />
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:key="google_upload_wifi"
+            android:title="Upload on wifi"
+            android:summary="Only upload when device has wifi connected. "
+            android:defaultValue="true" />
+        <android.support.v7.preference.PreferenceScreen
+            android:key="google_upload_account"
+            android:title="Set up google account"
+            android:summary="Tap to change."
+
+            />
+
+
+    </PreferenceCategory>
+
+</android.support.v7.preference.PreferenceScreen>
